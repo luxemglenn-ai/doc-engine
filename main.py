@@ -8,7 +8,6 @@ from reportlab.lib.pagesizes import letter
 from reportlab.pdfgen import canvas
 from reportlab.lib import colors
 from reportlab.lib.utils import ImageReader
-from PIL import Image
 
 app = FastAPI(title="Statutory Document Engine")
 
